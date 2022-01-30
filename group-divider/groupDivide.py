@@ -5,7 +5,7 @@ studentList.txt contains the student names arranged roll.no wise
 groupResults.txt holds the list of groups
 """
 
-studentNames = open("studentList.txt").readlines() 
+studentNames = open("../studentList.txt").readlines() 
 groupResults = open("groupResults.txt","w")
 
 numberOfStudents = 74
